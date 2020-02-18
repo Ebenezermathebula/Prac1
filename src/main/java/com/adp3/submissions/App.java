@@ -13,7 +13,7 @@ public class App
 
         int randomNum = randGen.nextInt(10);
 
-
+        System.out.print("Guess  number between 1  and 9 ");
         System.out.print("Enter a number: ");
         int number = input.nextInt();
         int guesses = 1;
